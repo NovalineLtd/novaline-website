@@ -2,25 +2,45 @@
 
 Public-facing website for Novaline.
 
-Novaline is a logistics and transport technology company focused on
-systems-first coordination of road freight operations.
+## Overview
 
-## Purpose
+Novaline provides freight forwarding, transport coordination, and management systems for time-critical operations across the UK and EU.
 
-- Company information
-- Services overview
-- Product information (Novaline TMS)
-- Documentation and resources
+## Website Structure
 
-## Stack
+- **Homepage** (`index.html`) - Main landing page
+- **About** (`pages/about.html`) - Company information
+- **Services** - Transport coordination, freight forwarding, operational support
+- **Products** - TMS, Driver Portal, Client Portal
+- **Resources** - Documentation and blog
+- **Legal** - Privacy policy, terms of service, cookie policy
 
-- HTML / CSS / JavaScript
+## Deployment
 
-## Status
+This site is hosted on GitHub Pages at [https://novaline.co.uk](https://novaline.co.uk)
 
-Active development.
+## Technology Stack
 
-## Links
+- **HTML5** - Semantic markup
+- **CSS3** - Modular stylesheets
+- **Vanilla JavaScript** - No framework dependencies
+- **GitHub Pages** - Static site hosting
 
-- Website: https://novaline.co.uk
-- Company: Novaline Ltd
+## SEO
+
+- Sitemap available at `/sitemap.xml`
+- Robots.txt configured for full indexing
+- Open Graph and Twitter Card meta tags
+- Structured data markup (Schema.org)
+
+## Contributing
+
+This is a private company website. For internal updates, please contact the development team.
+
+## License
+
+Copyright © 2026 Novaline. All rights reserved.
+
+## Contact
+
+For inquiries, please visit [novaline.co.uk](https://novaline.co.uk)
