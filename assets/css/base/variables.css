@@ -1,0 +1,95 @@
+:root {
+    /* Colors - Primary */
+    --c-primary: #1a2e44;
+    --c-primary-hover: #243d5a;
+
+    /* Colors - Text */
+    --c-text: #1f2937;
+    --c-text-secondary: #6b7280;
+    --c-text-muted: #9ca3af;
+    --c-text-inverse: #ffffff;
+
+    /* Colors - Background */
+    --c-bg: #ffffff;
+    --c-bg-subtle: #f9fafb;
+    --c-bg-muted: #f3f4f6;
+    --c-bg-dark: #111827;
+    --c-bg-overlay: rgba(0, 0, 0, 0.1);
+
+    /* Colors - Border */
+    --c-border: #e5e7eb;
+    --c-border-dark: #d1d5db;
+
+    /* Colors - Accent */
+    --c-accent: #b45309;
+
+    /* Typography */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+    /* Font Sizes */
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.8125rem; /* 13px */
+    --text-base: 0.9375rem; /* 15px */
+    --text-md: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+    --text-2xl: clamp(1.25rem, 3vw, 1.5rem);
+    --text-3xl: clamp(1.5rem, 4vw, 1.875rem);
+    --text-4xl: clamp(1.75rem, 5vw, 2.5rem);
+
+    /* Font Weights */
+    --weight-normal: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    /* Line Heights */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.65;
+
+    /* Spacing */
+    --sp-1: 0.25rem; /* 4px */
+    --sp-2: 0.5rem; /* 8px */
+    --sp-3: 0.75rem; /* 12px */
+    --sp-4: 1rem; /* 16px */
+    --sp-5: 1.25rem; /* 20px */
+    --sp-6: 1.5rem; /* 24px */
+    --sp-8: 2rem; /* 32px */
+    --sp-10: 2.5rem; /* 40px */
+    --sp-12: 3rem; /* 48px */
+    --sp-16: 4rem; /* 64px */
+    --sp-20: 5rem; /* 80px */
+    --sp-24: 6rem; /* 96px */
+
+    /* Layout */
+    --container-max: 1120px;
+    --header-height: 64px;
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+    /* Transitions */
+    --ease: 150ms ease;
+    --ease-slow: 250ms ease;
+
+    /* Z-Index */
+    --z-dropdown: 100;
+    --z-header: 200;
+    --z-mobile-menu: 300;
+    --z-modal: 400;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --header-height: 72px;
+    }
+}

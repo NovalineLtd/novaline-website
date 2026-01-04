@@ -1,0 +1,27 @@
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: var(--sp-4);
+}
+
+.mt-8 {
+    margin-top: var(--sp-8);
+}
+
+.mb-4 {
+    margin-bottom: var(--sp-4);
+}
+
+.mb-8 {
+    margin-bottom: var(--sp-8);
+}

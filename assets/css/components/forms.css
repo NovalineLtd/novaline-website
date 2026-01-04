@@ -1,0 +1,71 @@
+.form__group {
+    margin-bottom: var(--sp-5);
+}
+
+.form__group:last-child {
+    margin-bottom: 0;
+}
+
+.form__label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    color: var(--c-text);
+    margin-bottom: var(--sp-2);
+}
+
+.form__input,
+.form__textarea,
+.form__select {
+    display: block;
+    width: 100%;
+    padding: var(--sp-3) var(--sp-4);
+    font-size: var(--text-md);
+    line-height: var(--leading-normal);
+    color: var(--c-text);
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--ease), box-shadow var(--ease);
+}
+
+.form__input:hover,
+.form__textarea:hover,
+.form__select:hover {
+    border-color: var(--c-border-dark);
+}
+
+.form__input:focus,
+.form__textarea:focus,
+.form__select:focus {
+    outline: none;
+    border-color: var(--c-primary);
+    box-shadow: 0 0 0 3px rgba(26, 46, 68, 0.1);
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+    color: var(--c-text-muted);
+}
+
+.form__textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.form__hint {
+    font-size: var(--text-sm);
+    color: var(--c-text-muted);
+    margin-top: var(--sp-1);
+}
+
+.form__error {
+    font-size: var(--text-sm);
+    color: #dc2626;
+    margin-top: var(--sp-1);
+}
+
+.form__input.error,
+.form__textarea.error {
+    border-color: #dc2626;
+}
